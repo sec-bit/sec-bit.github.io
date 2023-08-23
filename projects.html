@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JT3HKW7GRY"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JT3HKW7GRY');
+    </script>
+
     <meta charset="utf-8" />
     <meta name="generator" content="pandoc" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -18,15 +28,6 @@
     <![endif]-->
 
     
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149859278-2"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-149859278-2');
-    </script>
 </head>
 
 <body>
@@ -47,26 +48,97 @@
     </header>
     
     
-    <h3 id="zkpod"><a href="https://github.com/sec-bit/zkPoD-node">zkPoD</a></h3>
-    <p>A decentralized system for data exchange. See our <a href="https://sec-bit.github.io/zkPoD-node/paper.pdf">technical paper</a> for more information.</p>
-    <h3 id="ckb-zkp-a.k.a.-zkp-toolkit-ckb"><a href="https://github.com/sec-bit/ckb-zkp">CKB-ZKP (a.k.a. zkp-toolkit-ckb)</a></h3>
-    <p>Zero-knowledge proofs toolkit for CKB. Under active development and selected as one of the first infrastructure projects to be funded by the <a href="https://medium.com/nervosnetwork/three-new-ecosystem-grants-awarded-892b97e8bc06">Nervos Ecosystem Grants Program</a>. Read the original proposal <a href="https://talk.nervos.org/t/secbit-labs-zkp-toolkit-ckb-a-zero-knowledge-proof-toolkit-for-ckb/4254">here</a>.</p>
-    <h3 id="clover-protocol"><a href="https://github.com/sec-bit/clover-protocol">Clover Protocol</a></h3>
-    <p>An aSVC based stateless protocol as layer-2 rollup on Nervos network. Developed during the <a href="https://medium.com/nervosnetwork/nervoshack-wrap-up-4370044f9866">Nervos hackathon</a>.</p>
-    <h3 id="learning-zkp"><a href="https://github.com/sec-bit/learning-zkp">Learning ZKP</a></h3>
-    <p>Articles, codes and tools all about zero-knowledge proofs. Read about zkp introduction series <a href="https://github.com/sec-bit/learning-zkp/blob/master/zkp-intro/1/zkp-back.md">from here</a> or check out <a href="https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md">zkp learning resource list</a>.</p>
-    <h3 id="token-libraries-with-proofs"><a href="https://github.com/sec-bit/tokenlibs-with-proofs">Token Libraries with Proofs</a></h3>
+    <h3 id="rln-on-kzg-in-golang"><a
+    href="https://github.com/sec-bit/kzg-rln-go">RLN on KZG in
+    Golang</a></h3>
+    <p>A proof-of-concept implementation of RLN (Rate Limiting
+    Nullifier) using KZG in Golang. This implementation is grounded in
+    the discussion at <a
+    href="https://zkresear.ch/t/rln-on-kzg-polynomial-commitment-scheme-cross-posted/114">zkresearch</a>
+    initiated by Wanseob Lim.</p>
+    <h3 id="mfersafe"><a
+    href="https://github.com/sec-bit/mfer-safe">MferSafe</a></h3>
+    <p>This application allows you to freely explore DApps, impersonate
+    any user, inspect transaction traces, manipulate time by turning the
+    clock forward or backward, and easily construct and simulate Gnosis
+    Safe MultiSend transaction bundles. A lite version, known as <a
+    href="https://github.com/sec-bit/mfer-safe-lite">MferSafe Lite</a>,
+    is also available as a browser extension.</p>
+    <h3 id="security-audit-for-ethereum-kzg-ceremony"><a
+    href="https://github.com/ethereum/kzg-ceremony/blob/main/KZG10-Ceremony-audit-report.pdf">Security
+    Audit for Ethereum KZG Ceremony</a></h3>
+    <p>Security audit for the <a
+    href="https://github.com/ethereum/kzg-ceremony-specs">specification</a>
+    and <a
+    href="https://github.com/crate-crypto/small-powers-of-tau">implementation</a>
+    of Ethereum’s Powers of Tau (PoT) setup ceremony.</p>
+    <h3 id="zkcplus"><a
+    href="https://dl.acm.org/doi/10.1145/3460120.3484558">ZKCPlus</a></h3>
+    <p>Optimized Fair-exchange Protocol Supporting Practical and
+    Flexible Data Exchange. This research builds upon our prior work on
+    zkPoD and has been accepted for publication in CCS ’21.</p>
+    <h3 id="zkpod"><a
+    href="https://github.com/sec-bit/zkPoD-node">zkPoD</a></h3>
+    <p>A decentralized system for data exchange. See our <a
+    href="https://sec-bit.github.io/zkPoD-node/paper.pdf">technical
+    paper</a> for more information.</p>
+    <h3 id="ckb-zkp-a.k.a.-zkp-toolkit-ckb"><a
+    href="https://github.com/sec-bit/ckb-zkp">CKB-ZKP (a.k.a.
+    zkp-toolkit-ckb)</a></h3>
+    <p>Zero-knowledge proofs toolkit for CKB. Under active development
+    and selected as one of the first infrastructure projects to be
+    funded by the <a
+    href="https://medium.com/nervosnetwork/three-new-ecosystem-grants-awarded-892b97e8bc06">Nervos
+    Ecosystem Grants Program</a>. Read the original proposal <a
+    href="https://talk.nervos.org/t/secbit-labs-zkp-toolkit-ckb-a-zero-knowledge-proof-toolkit-for-ckb/4254">here</a>.</p>
+    <h3 id="clover-protocol"><a
+    href="https://github.com/sec-bit/clover-protocol">Clover
+    Protocol</a></h3>
+    <p>An aSVC based stateless protocol as layer-2 rollup on Nervos
+    network. Developed during the <a
+    href="https://medium.com/nervosnetwork/nervoshack-wrap-up-4370044f9866">Nervos
+    hackathon</a>.</p>
+    <h3 id="learning-zkp"><a
+    href="https://github.com/sec-bit/learning-zkp">Learning ZKP</a></h3>
+    <p>Articles, codes and tools all about zero-knowledge proofs. Read
+    about zkp introduction series <a
+    href="https://github.com/sec-bit/learning-zkp/blob/master/zkp-intro/1/zkp-back.md">from
+    here</a> or check out <a
+    href="https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md">zkp
+    learning resource list</a>.</p>
+    <h3 id="token-libraries-with-proofs"><a
+    href="https://github.com/sec-bit/tokenlibs-with-proofs">Token
+    Libraries with Proofs</a></h3>
     <p>Correctness proofs of Ethereum token contracts.</p>
-    <h3 id="formal-verification-for-decentralized-exchange"><a href="https://github.com/sec-bit/loopring-protocol2-verification">Formal Verification for Decentralized Exchange</a></h3>
-    <p>Formal Verification for Loopring Protocol Smart Contract version 2.</p>
-    <h3 id="security-audit-for-the-first-zkrollup-dex-protocol"><a href="https://github.com/Loopring/protocols/tree/d528ab83c9934a4d54e4a3ceefa20ba7908ebe25/packages/loopring_v3/security_audit">Security Audit for the First zkRollup DEX Protocol</a></h3>
-    <p>Security audit for the first zkRollup based decentralized exchange, including smart contracts and zkp circuits.</p>
-    <h3 id="awesome-buggy-erc20-tokens"><a href="https://github.com/sec-bit/awesome-buggy-erc20-tokens">Awesome Buggy ERC20 Tokens</a></h3>
-    <p>A Collection of Vulnerabilities in ERC20 Smart Contracts With Tokens Affected.</p>
-    <h3 id="adelaide"><a href="https://github.com/sec-bit/adelaide">Adelaide</a></h3>
-    <p>The SECBIT Static Analysis Extension to Solidity Compiler. Find out <a href="https://github.com/sec-bit/adelaide/blob/secbit-ssae/README.secbit.md">how to use</a> and <a href="https://github.com/sec-bit/vscode-secbit-ssae#currently-supported-checks">currently cupported checks</a></p>
-    <h3 id="the-solidity-safe-subset"><a href="https://github.com/sec-bit/solidity-safe-subset">The Solidity Safe Subset</a></h3>
-    <p>A safe subset of the Solidity language. Find out <a href="https://github.com/sec-bit/solidity-safe-subset/blob/master/README.secbit.md">how to build and use</a>.</p>
+    <h3 id="formal-verification-for-decentralized-exchange"><a
+    href="https://github.com/sec-bit/loopring-protocol2-verification">Formal
+    Verification for Decentralized Exchange</a></h3>
+    <p>Formal Verification for Loopring Protocol Smart Contract version
+    2.</p>
+    <h3 id="security-audit-for-the-first-zkrollup-dex-protocol"><a
+    href="https://github.com/Loopring/protocols/tree/d528ab83c9934a4d54e4a3ceefa20ba7908ebe25/packages/loopring_v3/security_audit">Security
+    Audit for the First zkRollup DEX Protocol</a></h3>
+    <p>Security audit for the first zkRollup based decentralized
+    exchange, including smart contracts and zkp circuits.</p>
+    <h3 id="awesome-buggy-erc20-tokens"><a
+    href="https://github.com/sec-bit/awesome-buggy-erc20-tokens">Awesome
+    Buggy ERC20 Tokens</a></h3>
+    <p>A Collection of Vulnerabilities in ERC20 Smart Contracts With
+    Tokens Affected.</p>
+    <h3 id="adelaide"><a
+    href="https://github.com/sec-bit/adelaide">Adelaide</a></h3>
+    <p>The SECBIT Static Analysis Extension to Solidity Compiler. Find
+    out <a
+    href="https://github.com/sec-bit/adelaide/blob/secbit-ssae/README.secbit.md">how
+    to use</a> and <a
+    href="https://github.com/sec-bit/vscode-secbit-ssae#currently-supported-checks">currently
+    cupported checks</a></p>
+    <h3 id="the-solidity-safe-subset"><a
+    href="https://github.com/sec-bit/solidity-safe-subset">The Solidity
+    Safe Subset</a></h3>
+    <p>A safe subset of the Solidity language. Find out <a
+    href="https://github.com/sec-bit/solidity-safe-subset/blob/master/README.secbit.md">how
+    to build and use</a>.</p>
 
         <footer>
         	<hr />
